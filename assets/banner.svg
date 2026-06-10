@@ -1,0 +1,130 @@
+<svg width="850" height="240" viewBox="0 0 850 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 0.2; }
+      50% { opacity: 0.6; }
+    }
+    @keyframes lineGlow {
+      0%, 100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 2px #06b6d4); }
+      50% { stroke-dashoffset: 400; filter: drop-shadow(0 0 8px #0891b2); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-5px); }
+    }
+    .text-title {
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-weight: 800;
+      font-size: 32px;
+      fill: #ffffff;
+      letter-spacing: 2px;
+    }
+    .text-subtitle {
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-weight: 500;
+      font-size: 16px;
+      fill: #06b6d4;
+      letter-spacing: 1px;
+    }
+    .text-desc {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 13px;
+      fill: #64748b;
+    }
+    .grid-dot {
+      fill: #1e293b;
+      animation: pulse 4s infinite ease-in-out;
+    }
+    .glowing-line {
+      stroke: url(#line-grad);
+      stroke-width: 2;
+      stroke-dasharray: 600;
+      animation: lineGlow 8s infinite linear;
+    }
+  </style>
+
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070c" />
+      <stop offset="50%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Accent Line Gradient -->
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+
+    <!-- Text Gradient -->
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#94a3b8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="850" height="240" rx="12" fill="url(#bg-grad)" />
+  <rect width="848" height="238" x="1" y="1" rx="11" fill="none" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Dot Grid Pattern (Right Side) -->
+  <g class="grid-dot">
+    <circle cx="680" cy="50" r="1.5" />
+    <circle cx="710" cy="50" r="1.5" />
+    <circle cx="740" cy="50" r="1.5" />
+    <circle cx="770" cy="50" r="1.5" />
+    <circle cx="800" cy="50" r="1.5" />
+
+    <circle cx="680" cy="80" r="1.5" />
+    <circle cx="710" cy="80" r="1.5" />
+    <circle cx="740" cy="80" r="1.5" style="animation-delay: 1s;" />
+    <circle cx="770" cy="80" r="1.5" />
+    <circle cx="800" cy="80" r="1.5" />
+
+    <circle cx="680" cy="110" r="1.5" style="animation-delay: 0.5s;" />
+    <circle cx="710" cy="110" r="1.5" style="animation-delay: 1.5s;" />
+    <circle cx="740" cy="110" r="1.5" style="animation-delay: 2s;" />
+    <circle cx="770" cy="110" r="1.5" style="animation-delay: 1s;" />
+    <circle cx="800" cy="110" r="1.5" />
+
+    <circle cx="680" cy="140" r="1.5" />
+    <circle cx="710" cy="140" r="1.5" style="animation-delay: 2.5s;" />
+    <circle cx="740" cy="140" r="1.5" />
+    <circle cx="770" cy="140" r="1.5" style="animation-delay: 1.5s;" />
+    <circle cx="800" cy="140" r="1.5" />
+
+    <circle cx="680" cy="170" r="1.5" />
+    <circle cx="710" cy="170" r="1.5" />
+    <circle cx="740" cy="170" r="1.5" />
+    <circle cx="770" cy="170" r="1.5" style="animation-delay: 2s;" />
+    <circle cx="800" cy="170" r="1.5" />
+  </g>
+
+  <!-- Glowing Accent Line -->
+  <path d="M 50 195 L 800 195" class="glowing-line" />
+
+  <!-- Info / Text Group -->
+  <g transform="translate(60, 55)">
+    <!-- Code Bracket Icon Decor -->
+    <path d="M-15,12 L-25,20 L-15,28 M15,12 L25,20 L15,28" stroke="#334155" stroke-width="2" stroke-linecap="round" fill="none" transform="translate(0, -10)" />
+    
+    <!-- Title -->
+    <text x="0" y="30" class="text-title" fill="url(#text-grad)">JUAN DAVID HUAYTA</text>
+    
+    <!-- Subtitle / Role -->
+    <text x="0" y="62" class="text-subtitle">&lt; Mobile Developer &amp; Fullstack Engineer /&gt;</text>
+    
+    <!-- Description -->
+    <text x="0" y="92" class="text-desc">Estudiante de 9no ciclo de Ingeniería Informática | URP</text>
+    <text x="0" y="112" class="text-desc">Desarrollando soluciones ágiles y eficientes en Nos Planet S.A.C.</text>
+  </g>
+
+  <!-- Pulse Status Dot (Green) -->
+  <g transform="translate(60, 212)">
+    <circle cx="10" cy="0" r="4" fill="#10b981" />
+    <circle cx="10" cy="0" r="7" fill="none" stroke="#10b981" stroke-width="1.5" style="animation: pulse 2s infinite ease-in-out;" />
+    <text x="25" y="4" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#475569" letter-spacing="0.5">DISPONIBLE PARA NUEVOS PROYECTOS</text>
+  </g>
+</svg>
