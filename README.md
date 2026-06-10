@@ -2,7 +2,7 @@
   <img src="assets/banner.svg" alt="Juan David Huayta - Banner" width="100%" />
 </p>
 
-## 👤 Sobre Mí
+##  Sobre Mí
 
 ¡Hola! Soy **Juan David Huayta**, estudiante de 9no ciclo de **Ingeniería Informática** en la **Universidad Ricardo Palma** y Desarrollador Fullstack.
 
@@ -10,14 +10,14 @@ Actualmente me desempeño como **Desarrollador de Aplicativos Móviles** en **No
 
 ---
 
-## 💼 Proyectos Profesionales (Nos Planet S.A.C.)
+##  Proyectos Profesionales (Nos Planet S.A.C.)
 
 Ecosistema y aplicaciones desarrollados profesionalmente para la logística y gestión ambiental:
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>♻️ Ecosistema Recycle App</h3>
+      <h3> Ecosistema Recycle App</h3>
       <p>Plataforma integral para la gestión y concientización ambiental en el reciclaje de residuos sólidos.</p>
       <ul>
         <li><b><a href="https://github.com/NOS-PLANET/Recycle-Front-App" target="_blank">Recycle-Front-App</a></b>: Aplicación móvil multiplataforma (React Native / Expo) para que usuarios registren entregas y acumulen puntos.</li>
@@ -31,7 +31,7 @@ Ecosistema y aplicaciones desarrollados profesionalmente para la logística y ge
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🏍️ booking-moto</h3>
+      <h3> booking-moto</h3>
       <p>Aplicación móvil y plataforma logística dedicada a la reserva, programación y gestión de asistencia técnica para motocicletas en tiempo real.</p>
       <ul>
         <li>Optimización de flujos de reserva y geolocalización.</li>
@@ -48,12 +48,12 @@ Ecosistema y aplicaciones desarrollados profesionalmente para la logística y ge
 
 ---
 
-## 🚀 Proyectos Personales
+##  Proyectos Personales
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>📂 <a href="https://github.com/ChethhSito/Automatizador_Archivos" target="_blank">Automatizador de Archivos</a></h3>
+      <h3> <a href="https://github.com/ChethhSito/Automatizador_Archivos" target="_blank">Automatizador de Archivos</a></h3>
       <p>Aplicación de escritorio que corre en segundo plano y organiza automáticamente carpetas caóticas (ej. Descargas) mediante reglas personalizadas e Inteligencia Artificial.</p>
       <p>
         <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
@@ -61,7 +61,7 @@ Ecosistema y aplicaciones desarrollados profesionalmente para la logística y ge
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🎮 <a href="https://github.com/ChethhSito/automatizador_plantillas_portfolio" target="_blank">Automatizador de Plantillas</a></h3>
+      <h3> <a href="https://github.com/ChethhSito/automatizador_plantillas_portfolio" target="_blank">Automatizador de Plantillas</a></h3>
       <p>Herramienta interactiva estilo "juego retro" diseñada para actualizar y personalizar plantillas de portafolios web de forma visual y lúdica.</p>
       <p>
         <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
@@ -71,7 +71,7 @@ Ecosistema y aplicaciones desarrollados profesionalmente para la logística y ge
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🛒 <a href="https://github.com/ChethhSito/compras_futuro" target="_blank">Compras Futuro</a></h3>
+      <h3> <a href="https://github.com/ChethhSito/compras_futuro" target="_blank">Compras Futuro</a></h3>
       <p>Aplicación interactiva con una interfaz moderna y fluida para planificar, registrar y proyectar compras futuras de manera organizada.</p>
       <p>
         <img src="https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=e34c26" alt="HTML5"/>
@@ -79,7 +79,7 @@ Ecosistema y aplicaciones desarrollados profesionalmente para la logística y ge
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🎵 <a href="https://github.com/ChethhSito/level-music-movil" target="_blank">Level Music Móvil</a></h3>
+      <h3> <a href="https://github.com/ChethhSito/level-music-movil" target="_blank">Level Music Móvil</a></h3>
       <p>Aplicación móvil dedicada a la reproducción y gestión de música en streaming, con foco en interfaces de usuario interactivas.</p>
       <p>
         <img src="https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
@@ -91,9 +91,9 @@ Ecosistema y aplicaciones desarrollados profesionalmente para la logística y ge
 
 ---
 
-## 🛠️ Tecnologías y Herramientas
+##  Tecnologías y Herramientas
 
-### 📱 Móvil y Frontend
+###  Móvil y Frontend
 <p align="left">
   <img src="https://img.shields.io/badge/React_Native-0d1117?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" />
   <img src="https://img.shields.io/badge/Flutter-0d1117?style=flat-square&logo=flutter&logoColor=02569B" alt="Flutter" />
@@ -104,7 +104,7 @@ Ecosistema y aplicaciones desarrollados profesionalmente para la logística y ge
   <img src="https://img.shields.io/badge/Astro-0d1117?style=flat-square&logo=astro&logoColor=FF5D01" alt="Astro" />
 </p>
 
-### ⚙️ Backend y Base de Datos
+###  Backend y Base de Datos
 <p align="left">
   <img src="https://img.shields.io/badge/Node.js-0d1117?style=flat-square&logo=nodedotjs&logoColor=339933" alt="NodeJS" />
   <img src="https://img.shields.io/badge/Spring_Boot-0d1117?style=flat-square&logo=springboot&logoColor=6DB33F" alt="Spring Boot" />
@@ -113,7 +113,7 @@ Ecosistema y aplicaciones desarrollados profesionalmente para la logística y ge
   <img src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
 </p>
 
-### ☁️ Herramientas y DevOps
+###  Herramientas y DevOps
 <p align="left">
   <img src="https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
   <img src="https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
@@ -124,7 +124,7 @@ Ecosistema y aplicaciones desarrollados profesionalmente para la logística y ge
 
 ---
 
-## 📊 Estadísticas de GitHub
+##  Estadísticas de GitHub
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChethhSito&theme=dark&background=0d1117&fire=06b6d4&ring=06b6d4&labels=94a3b8&hide_border=true" alt="Racha de contribuciones" />
@@ -139,7 +139,7 @@ Ecosistema y aplicaciones desarrollados profesionalmente para la logística y ge
 
 ---
 
-## 🔗 Conectemos
+##  Conectemos
 
 <p align="left">
   <a href="https://portfoliochethh.vercel.app/" target="_blank">
@@ -164,5 +164,5 @@ Ecosistema y aplicaciones desarrollados profesionalmente para la logística y ge
 
 ---
 <p align="center">
-  <i>📍 San Juan de Miraflores, Lima, Perú 🇵🇪</i>
+  <i> San Juan de Miraflores, Lima, Perú 🇵🇪</i>
 </p>
